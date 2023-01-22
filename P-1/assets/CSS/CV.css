@@ -1,0 +1,93 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.header {
+    font-family: 'Roboto';
+    padding: 10px;
+    padding-left: 15px;
+    background-color: #1b263b;
+    color: azure;
+}
+
+.name {
+    margin-bottom: 9px;
+    text-align: left;
+}
+
+.bio {
+    font-family: 'Montserrat';
+    text-align: justify;
+    padding-right: 30px;
+}
+
+hr.solid {
+    border-top: 1px solid black;
+}
+
+.about-me {
+    background-color: #778da9;
+  
+}
+
+.about-me h3, p, li, span {
+    font-family: 'Montserrat';
+}
+
+.LHS{
+    /* padding: 10px; */
+    display: inline-block;
+    width: 72%;
+    background-color: #e0e1dd ;
+    color: black;
+}
+
+.RHS{
+    /* margin-top: 50px; */
+    display: inline-block;
+    background-color: #778da9 ;
+    width: 27%;
+    height: 720px;
+    vertical-align: top;
+    color: black;
+}
+
+.details {
+    padding: 15px;
+    padding-top: 5px;
+}
+.img {
+    margin-left: 125px;
+    margin-top: 50px;
+    object-fit: contain;
+    width: 160px;
+    border-radius: 20%;
+    transform: scale(1.2);
+}
+
+.name-rhs { 
+    margin-top: 50px;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    text-align: center;
+    font-family: 'Playfair Display';
+    font-weight: bolder;
+}
+
+.RHS p {
+    margin-top: 5px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+
+.contact {
+    margin-top: 0px;
+}
+
+
+
